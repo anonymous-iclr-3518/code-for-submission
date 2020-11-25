@@ -14,7 +14,7 @@ To install this package, `pip install -e /path/to/this/dir`
 # Running Experiments
 
 The `compare.sh` script runs all the variants of our method.
-We use Weights&Biases for experiment tracking, but you can turn that off with `use_wandb=False`.
+We use Weights&Biases for experiment tracking, but you can turn that off with `misc.use_wandb=False`.
 
 ## Adult Income
 
