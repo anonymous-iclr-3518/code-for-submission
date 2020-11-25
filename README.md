@@ -22,12 +22,12 @@ This dataset is included in the repository.
 
 ### Partial outcome
 ```
-bash scripts/compare.sh data=adult/gender bias=adult/partial_outcome enc=adult fdm=adult/on_recon_old clust=adult fdm.eval_epochs=60
+bash scripts/compare.sh data=adult/gender bias=adult/partial_outcome enc=adult fdm=adult/on_recon_old clust=adult
 ```
 
 ### Missing demographic
 ```
-bash scripts/compare.sh data=adult/gender bias=adult/missing_demo enc=adult fdm=adult/on_recon_old clust=adult fdm.eval_epochs=60
+bash scripts/compare.sh data=adult/gender bias=adult/missing_demo enc=adult fdm=adult/on_recon_old clust=adult
 ```
 
 ## Colored MNIST
